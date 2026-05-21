@@ -16,3 +16,17 @@ Users users are a free to choose between two measurement strategies to vote thei
 
 ## How to contribute
 - Everyone is welcome to contribute, please do that creating a issue (please check if your issue isn't a existing one to avoid  duplicated issues).
+
+
+## Installation
+- Project was split in two main directories _client_ for frontend and _server_ for api, just follow the instructions bellow to run each of them.
+    - ### Client
+    
+    - #### Install requirements:
+        - NodeJS >= 22.22.2
+        - NPM    
+
+    - #### Install steps:
+        - Go to `/client` and install dependencies using `npm install` command.
+        - Run project using `npm run dev`.
+        - Go to [localhost](http://localhost:5173/) to see the project running.
