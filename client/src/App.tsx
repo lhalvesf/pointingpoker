@@ -1,17 +1,26 @@
 
 
 import { Navbar } from './components/Navbar' 
-import { JoinSession } from './components/JoinSession' 
+import { Routes, Route } from 'react-router'
 
+import { Home } from './pages/Home'
+import { Votation } from './pages/Votation'
+import { CreateSession } from './pages/CreateSession'
+
+import './app.css'
 
 function App() {
-
   return (
-    <>
+    <div id="app-wrapper">
       <Navbar />
-      <h1>Pointing Poker</h1>
-      <JoinSession />
-    </>
+      <div id="app-content">
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/votation' element={<Votation />} />
+          <Route path='/create-session' element={<CreateSession />} />
+        </Routes>
+      </div>
+    </div>
   )
 }
 

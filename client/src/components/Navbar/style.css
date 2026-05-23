@@ -9,3 +9,12 @@ nav ul {
 li { list-style: none; }
 
 a { text-decoration: none; }
+
+#logo {
+    font-size: 2rem;
+    text-align: center;
+    height: 80%;
+    color: #fcedd8;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+}

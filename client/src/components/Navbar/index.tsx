@@ -1,12 +1,12 @@
 import './style.css'
+import { Link } from 'react-router'
+
 export function Navbar() {
     return(<>
         <nav>
             <ul>
-                <li><a href="">Pointing poker</a></li>
-                <li><a href="">1</a></li>
-                <li><a href="">2</a></li>
-                <li><a href="">3</a></li>
+                <li><Link to="/" id="logo" >Scrum Poker</Link></li>
+                <li><Link to="/votation" >votation page</Link></li>
             </ul>
         </nav>
     </>)
